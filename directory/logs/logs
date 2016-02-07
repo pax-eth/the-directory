@@ -1,0 +1,14 @@
+1. Set rules for public and private broadcasts
+2. Limit wordcount and echo back overflow
+3. Remember publicity setting
+4. Add broadcast to outfeed
+5. Status conditional for outfeed
+6. Encrypt to MongoDB via AES
+
+***Infeed***
+1. Echo, send to outfeed
+2. Link echo back to outfeed of origin
+
+***Outfeed***
+1. Edit/delete broadcast
+2. Downfeed, every 10
