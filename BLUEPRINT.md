@@ -77,7 +77,7 @@ The Fora will be the Pax equivalent of an “App Store”- a marketplace of ente
 
 CASES
 
-Cases is the methodology according to which disputes that arise among individuals and companies on the directory will be resolved. This can be initiated on the Directory if there is a dispute about a smart contract. Dispute resolution enterprises on the Pax Fora can come to resolutions on cases, the results of which are recorded on Ethereum in the public domain. The model of justice employed within Pax is Restorative Justice, where a guilty defendant is put in debt to the plaintiff in the form of a smart contract according to the judgement. If there is a failure to honor the contract it could lead to reputational consequences of Exit if serious enough.
+Cases is the methodology according to which disputes that arise among individuals and companies on the directory will be resolved. This can be initiated on the Directory if there is a dispute about a smart contract. Dispute resolution enterprises on the Pax Fora can come to resolutions on cases, the results of which are recorded on Ethereum in the public domain. The model of justice employed within Pax is Restorative Justice, where a guilty defendant is put in debt to the plaintiff in the form of a smart contract according to the judgement. If there is a failure to honor the contract it could lead to reputational consequences or Exit if serious enough.
 
 TREATIES
 
