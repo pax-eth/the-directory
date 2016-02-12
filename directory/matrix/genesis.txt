@@ -1,0 +1,15 @@
+ >> geth --genesis pax.json
+I0211 00:30:50.605514 ethdb/database.go:71] Alloted 16MB cache to /home/physes/.ethereum/chaindata
+I0211 00:30:50.611544 ethdb/database.go:71] Alloted 16MB cache to /home/physes/.ethereum/dapp
+I0211 00:30:50.619362 eth/backend.go:163] Protocol Versions: [63 62 61], Network Id: 1
+I0211 00:30:50.619801 core/genesis.go:91] Genesis block already in chain. Writing canonical number
+I0211 00:30:50.619899 eth/backend.go:171] Successfully wrote custom genesis block: 6650a0ac6c5e805475e7ca48eae5df0e32a2147a154bb2222731c770ddb5c158
+I0211 00:30:50.620054 eth/backend.go:191] Blockchain DB Version: 3
+I0211 00:30:50.625870 core/blockchain.go:210] Last header: #0 [6650a0ac…] TD=1024
+I0211 00:30:50.625932 core/blockchain.go:211] Last block: #0 [6650a0ac…] TD=1024
+I0211 00:30:50.625953 core/blockchain.go:212] Fast block: #0 [6650a0ac…] TD=1024
+I0211 00:30:50.626319 p2p/server.go:311] Starting Server
+I0211 00:30:52.727485 p2p/discover/udp.go:205] Listening, enode://0c0ab68d8e101afe129a5a61f303a8458d2e4809d6990259a0cc69191baff6e8c9d88f031ed9e1963db615462a243317c08ab9051945812b19ee0e12ad529e81@[::]:30303
+I0211 00:30:52.728589 p2p/server.go:555] Listening on [::]:30303
+I0211 00:30:52.729133 node/node.go:215] IPC endpoint opened: /home/physes/.ethereum/geth.ipc
+

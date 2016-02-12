@@ -1,41 +1,26 @@
 
-/*Client is a JSON object that includes status */
+
+<!-- Client is a JSON object that includes status -->
 
 var out = function() {
-		document.getElementById('out')
-	};
+    document.getElementById('out')
+  }
 
 if client.status <= 0.5 {
-	template.	
+  template. 
 
-};
+}
 
-<template name="out">
-<div class="panel panel-default">
-<div class="panel-heading" id="out_header"></div>
-<div class="panel-body" id="out_body">
-<form role="form">
-<div class="form-group">
-<textarea class="form-control" id="broadcast"></textarea>
+var el;
+function charCount() {
+  var textEntered, charDisplay, counter;
+  textEntered = document.getElementById('broadcast').value;
+  charDisplay = document.getElementById('charactersLeft');
+  counter = (512 - (textEntered.length));
+  charDisplay.textContent = counter;
+}
 
-<div class="panel-footer" id="out_footer">
+/*Add if statement to charCount, so that a class is added to broadcasts in the case of overrun.*/
 
-/*Input button with public and private options*/
-<div class="btn-group">
-  <button type="button" class="btn btn-default">Broadcast</button>
-  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-    <span class="caret"></span>
-  </button>
-  <ul class="dropdown-menu" role="menu">
-    <li><a href="#">Public</a></li>
-    <li><a href="#">Private</a></li>
-  </ul>
-</div>
-</div>
-</form>
-/*End of form*/
-</div>
-</div>
-/*End of panel */
-</template>
-
+el = document.getElementById('broadcast');
+el.addEventListener('keypress', charCount, false);
