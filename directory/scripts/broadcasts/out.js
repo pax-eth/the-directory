@@ -3,26 +3,24 @@
 <!-- Client is a JSON object that includes status -->
 
 var out = function() {
-		document.getElementById('out')
-	}
+    document.getElementById('out')
+  }
 
 if client.status <= 0.5 {
-	template.	
+  template. 
 
 }
 
-<template name="out">
-<div class="panel panel-default">
-<div class="panel-heading" id="out_header"></div>
-<div class="panel-body" id="out_body">
-<form role="form">
-<div class="form-group">
-<textarea class="form-control" id="broadcast"></textarea>
+var el;
+function charCount() {
+  var textEntered, charDisplay, counter;
+  textEntered = document.getElementById('broadcast').value;
+  charDisplay = document.getElementById('charactersLeft');
+  counter = (512 - (textEntered.length));
+  charDisplay.textContent = counter;
+}
 
-<div class="panel-footer" id="out_footer"></div>
+/*Add if statement to charCount, so that a class is added to broadcasts in the case of overrun.*/
 
-</form>
-</div>
-</div>
-</template>
-
+el = document.getElementById('broadcast');
+el.addEventListener('keypress', charCount, false);

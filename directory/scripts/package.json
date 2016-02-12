@@ -1,0 +1,23 @@
+{
+  "name": "scripts",
+  "version": "1.0.0",
+  "description": "Pax is a civic network and peer to peer legal system.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pax-eth/the-directory.git"
+  },
+  "keywords": [
+    "ethereum",
+    "cryptocurrencies"
+  ],
+  "author": "Philip Saunders",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pax-eth/the-directory/issues"
+  },
+  "homepage": "https://github.com/pax-eth/the-directory#readme"
+}
